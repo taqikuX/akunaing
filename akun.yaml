@@ -1,0 +1,62 @@
+bugs:
+   - a: &a 'quiz.vidio.com'
+   - b: &b 'zaintest.vuclip.com'
+   - c: &c 'help.viu.com'
+   - d: &d 'jl-v1.yaemiko.xyz'
+proxies:
+  - name: 🇮🇩 JALA [VIU×WS]
+    server: zaintest.vuclip.com
+    port: 443
+    type: vless
+    uuid: ponselggym7dugxckqrmz
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: zaintest.vuclip.com.jl-v1.yaemiko.xyz
+    ws-opts:
+      path: /vless
+      headers:
+        Host: zaintest.vuclip.com.jl-v1.yaemiko.xyz
+  - name: 🇮🇩 JALA[VIU×GRPC]
+    server: zaintest.vuclip.com
+    port: 443
+    type: vless
+    uuid: ponselggym7dugxckqrmz
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: grpc
+    servername: zaintest.vuclip.com.jl-v1.yaemiko.xyz
+    grpc-opts:
+      grpc-service-name: vless
+  - name: 🇮🇩 JALA [VID×WS]
+    server: quiz.vidio.com
+    port: 443
+    type: vless
+    uuid: ponselggym7dugxckqrmz
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: quiz.vidio.com.jl-v1.yaemiko.xyz
+    ws-opts:
+      path: /vless
+      headers:
+        Host: quiz.vidio.com.jl-v1.yaemiko.xyz
+  - name: 🇮🇩 JALA [VID×GRPC]
+    server: quiz.vidio.com
+    port: 443
+    type: vless
+    uuid: ponselggym7dugxckqrmz
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: grpc
+    servername: quiz.vidio.com.jl-v1.yaemiko.xyz
+    grpc-opts:
+      grpc-service-name: vless
